@@ -1,15 +1,60 @@
-This is simple web based project ,
- In this project I focuses on a replace tradictional exam system by online exam system so i create this online examination platform .
-This platform provide a better solution to take exam in online way from any place and time.
-there are 3 main modules are defined in system 
-1. student
-2. Teacher
-3. Admin(clg/university)
-Student module used by students where they can login to their profile and get all sub notes and assignment which assign by teachers
-Same as student module Teacher can set exam at any time after exam se schedule mail are transefered to all apporopriate students,
- after successfully completion of exam  system generated result of each student and show  at there module.
-Admin Module have all access of both module he have make a changes according to there needs and also check whats going on this system like system performace, students progress etc.
-Many other feature are there like live Ai based proctoring System
-Explore project you get all features
-All the Best .... 
+# Online Examination System
+
+An online examination system built using HTML, CSS, JavaScript, PHP, and MySQL, allowing users to take tests, submit answers, and get results in real time.
+
+## Features
+- User Authentication (Register/Login)
+- Create & Manage Exams
+- Automated Result Evaluation
+- Question Bank with MCQs & Descriptive Questions
+- Timer-Based Exams
+- Admin Dashboard for Managing Exams & Users
+
+## Tech Stack
+- **Frontend:** HTML, CSS, JavaScript
+- **Backend:** PHP
+- **Database:** MySQL
+- **Authentication:** Session-based authentication
+- **Deployment:** Apache, Nginx, or any preferred hosting service
+
+## Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/opyash218/online-examination-system.git
+   cd online-exam-system
+   ```
+2. Move files to your server directory (e.g., `htdocs` for XAMPP or `www` for WAMP).
+3. Import the database:
+   - Open **phpMyAdmin**
+   - Create a new database (e.g., `exam_system`)
+   - Import `database.sql` file from the project folder
+4. Configure database connection in `config.php`:
+   ```php
+   $host = 'localhost';
+   $username = 'your_db_username';
+   $password = 'your_db_password';
+   $database = 'exam_system';
+   ```
+5. Start Apache and MySQL from XAMPP/WAMP.
+6. Open the application in your browser:
+   ```
+   http://localhost/online-exam-system
+   ```
+
+## Project Structure
+- `index.php` - Main landing page
+- `register.php` - User registration
+- `login.php` - User login
+- `dashboard.php` - User dashboard
+- `admin/` - Admin panel for managing exams
+- `config.php` - Database connection settings
+- `assets/` - CSS, JS, and images
+- `database.sql` - Database schema
+
+## Contributing
+Feel free to fork this repository and submit pull requests with improvements.
+
+## License
+This project is licensed under the MIT License.
 
